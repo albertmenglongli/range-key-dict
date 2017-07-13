@@ -1,6 +1,9 @@
 # range_many_to_one_dict
 
 This is a RangeDict using pure Python codes support Python2.7 and Python 3.X
+
+pip install range-many-to-one-dict
+
 ```Python
 range_dict = RangeManyToOneDict({
         (0, 100): 'A',
