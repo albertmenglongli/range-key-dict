@@ -5,7 +5,10 @@ This is a RangeDict using pure Python codes support Python2.7 and Python 3.X
 pip install range-many-to-one-dict
 
 ```Python
-range_dict = RangeManyToOneDict({
+from range_many_to_one_dict import RangeManyToOneDict
+
+if __name__ == '__main__':
+    range_dict = RangeManyToOneDict({
         (0, 100): 'A',
         (100, 200): 'B',
         (200, 300): 'C',
