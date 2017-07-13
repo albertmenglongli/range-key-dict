@@ -12,7 +12,6 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-description = 'A dict with range as key',
 
 long_description = 'A dict which support a range as key,' \
                    ' and return the value if key provided falls into the corresponding range'
@@ -20,25 +19,25 @@ long_description = 'A dict which support a range as key,' \
 url = 'https://github.com/albertmenglongli/range_many_to_one_dict'
 
 setup(
-    name='range-many-to-one-dict',
+    name='range-key-dict',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version='1.1.0',
 
-    description='A sample Python project',
+    description = 'A dict with range as key',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/pypa/sampleproject',
+    url='https://github.com/albertmenglongli/range-key-dict',
 
     # Author details
     author='menglong.li',
     author_email='albert.menglongli@gmail.com',
 
     # Choose your license
-    license='MIT',
+    license='Apache2.0',
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
