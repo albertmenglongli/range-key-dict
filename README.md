@@ -2,7 +2,9 @@
 
 This is a RangeDict using pure Python codes support Python2.7 and Python 3.X
 
+```bash
 pip install range-key-dict
+```
 
 ```Python
 from range_key_dict import RangeKeyDict
