@@ -1,9 +1,9 @@
 # range-key-dict
 
-This is a RangeDict using pure Python codes support Python2.7 and Python 3.X
-
 
 Use ranges as key in dict, and the dict can be accessed by the number within the range, and get the value the range mapping to.
+
+This is a RangeDict using pure Python codes support Python2.7 and Python 3.X
 
 install: pip install range-key-dict
 
