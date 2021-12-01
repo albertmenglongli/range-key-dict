@@ -5,7 +5,7 @@ Use ranges as key in dict, and the dict can be accessed by the number within the
 
 This is a RangeDict using pure Python codes support Python2.7 and Python 3.X
 
-The looking up time on average O(M) where M is the number of range keys in the dictionary.
+The looking up time on average is O(M) where M is the number of range keys in the dictionary.
 
 install: pip install range-key-dict
 
